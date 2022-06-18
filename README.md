@@ -10,5 +10,3 @@
   - [path_provider](https://pub.dev/packages/path_provider) for fetching the path of the app to put the output inside
   - [video_player](https://pub.dev/packages/video_player) for displaying the merged output 
   - [file_picker](https://pub.dev/packages/file_picker) for picking the audio and video from the user's device
-  - 
- 
