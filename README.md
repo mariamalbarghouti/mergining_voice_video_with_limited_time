@@ -1,16 +1,14 @@
-# add_voice_over_video_feature
+# This demo is for:
+- Pick Video For User's Gallery
+- Pick Audio
+- Merge audio and video
+- Trim the output on specific time
+- if the audio is shorter than the video the audio will be repeated over the video period  
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## The libraries i used to do so are:
+  - [ffmpeg_kit_flutter](https://ffmpeg.org/ffmpeg.html)
+  - [path_provider](https://pub.dev/packages/path_provider) for fetching the path of the app to put the output inside
+  - [video_player](https://pub.dev/packages/video_player) for displaying the merged output 
+  - [file_picker](https://pub.dev/packages/file_picker) for picking the audio and video from the user's device
+  - 
+ 
